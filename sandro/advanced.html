@@ -19,7 +19,7 @@
 <body>
     
     <div id="books"></div>
-    
+
     <hr>
 
     <ul id="list"></ul>
@@ -30,7 +30,7 @@
 
     <hr>
     
-    
+    <div id="colors"></div>
 
 
 
@@ -63,6 +63,24 @@
     	    document.getElementById('withImg').innerHTML +=
 
             "<figure><img src="+allBooks[a].img+"><p>"+allBooks[a].title+"</p></figure>";
+    	};
+
+        //--------------------------------------------------
+
+        for (var a = 0; a < allBooks.length; a++) 
+    	{
+            if(allBooks[a].read == "false")
+            {
+    	        document.getElementById('colors').innerHTML +=
+
+                "<p style=color:red;>"+allBooks[a].title+"</p>"
+            }
+            else if(allBooks[a].read == "true")
+            {
+                document.getElementById('colors').innerHTML +=
+                
+                "<p style=color:green;>"+allBooks[a].title+"</p>"
+            }
     	};
 
 
