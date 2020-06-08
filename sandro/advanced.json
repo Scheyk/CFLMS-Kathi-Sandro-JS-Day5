@@ -1,0 +1,32 @@
+var books = `[
+    {
+        "title" : "Book 1",
+        "author" : "Person 1",
+        "read" : "false",
+        "img" : "book.png"
+    },
+    {
+        "title" : "Book 2",
+        "author" : "Person 2",
+        "read" : "true",
+        "img" : "book.png"
+    },
+    {
+        "title" : "Book 3",
+        "author" : "Person 3",
+        "read" : "true",
+        "img" : "book.png"
+    },
+    {
+        "title" : "Book 4",
+        "author" : "Person 4",
+        "read" : "false",
+        "img" : "book.png"
+    },
+    {
+        "title" : "Book 5",
+        "author" : "Person 5",
+        "read" : "true",
+        "img" : "book.png"
+    }
+    ]`;

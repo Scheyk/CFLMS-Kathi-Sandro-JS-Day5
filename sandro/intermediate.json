@@ -1,0 +1,82 @@
+var employees = `[
+                {
+                    "id" : "1",
+                    "firstName" : "Kathi",
+                    "lastName" : "Schey",
+                    "email" : "kathi@gmail.com",
+                    "jobTitle" : "Web Genius",
+                    "salary" : "69€"
+                },
+                {
+                    "id" : "2",
+                    "firstName" : "Sandro",
+                    "lastName" : "Perni",
+                    "email" : "sandi@gmail.com",
+                    "jobTitle" : "Web Doctor",
+                    "salary" : "69€"
+                },
+                {
+                    "id" : "3",
+                    "firstName" : "Elon",
+                    "lastName" : "Musk",
+                    "email" : "elon@gmail.com",
+                    "jobTitle" : "Space Master",
+                    "salary" : "420€"
+                },
+                {
+                    "id" : "4",
+                    "firstName" : "Jake",
+                    "lastName" : "Peralta",
+                    "email" : "jakie@gmail.com",
+                    "jobTitle" : "Dumbass",
+                    "salary" : "10.000€"
+                },
+                {
+                    "id" : "5",
+                    "firstName" : "Tim",
+                    "lastName" : "Struppi",
+                    "email" : "timmi@gmail.com",
+                    "jobTitle" : "Agent",
+                    "salary" : "1€"
+                },
+                {
+                    "id" : "6",
+                    "firstName" : "Bill",
+                    "lastName" : "Gates",
+                    "email" : "bill@gmail.com",
+                    "jobTitle" : "Boss",
+                    "salary" : "918.000€"
+                },
+                {
+                    "id" : "7",
+                    "firstName" : "Jeff",
+                    "lastName" : "Bezos",
+                    "email" : "jeffy@gmail.com",
+                    "jobTitle" : "Coffee Drinker",
+                    "salary" : "0.01€"
+                },
+                {
+                    "id" : "8",
+                    "firstName" : "Jason",
+                    "lastName" : "Richardson",
+                    "email" : "shred@gmail.com",
+                    "jobTitle" : "Guitar Pro",
+                    "salary" : "10€"
+                },
+                {
+                    "id" : "9",
+                    "firstName" : "Star",
+                    "lastName" : "Lord",
+                    "email" : "lazer@gmail.com",
+                    "jobTitle" : "Space Killer",
+                    "salary" : "100 Units"
+                },
+                {
+                    "id" : "10",
+                    "firstName" : "Thomas",
+                    "lastName" : "Unknown",
+                    "email" : "thomas@tv.com",
+                    "jobTitle" : "Train",
+                    "salary" : "100.000€"
+                }
+                ]`;
