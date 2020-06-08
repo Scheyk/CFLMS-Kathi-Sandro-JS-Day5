@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Exercise</title>
+
+    <style>
+
+        img{
+            width: 100px;
+            height: 100px;
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <div id="books"></div>
+    
+    <hr>
+
+    <ul id="list"></ul>
+
+    <hr>
+
+    <div id="withImg"></div>
+
+    <hr>
+    
+    
+
+
+
+    <script type="text/javascript" src="advanced.json"></script>
+    <script>
+
+        var allBooks = JSON.parse(books);
+
+
+        for (var a = 0; a < allBooks.length; a++) 
+    	{
+    	    document.getElementById('books').innerHTML +=
+
+            "<p>Book Title : "+allBooks[a].title+". Author : "+allBooks[a].author+"</p>";
+    	};
+
+        //-------------------------------------------------
+
+        for (var a = 0; a < allBooks.length; a++) 
+    	{
+    	    document.getElementById('list').innerHTML +=
+
+            "<li>"+allBooks[a].title+"</li>";
+    	};
+
+        //--------------------------------------------------
+
+        for (var a = 0; a < allBooks.length; a++) 
+    	{
+    	    document.getElementById('withImg').innerHTML +=
+
+            "<figure><img src="+allBooks[a].img+"><p>"+allBooks[a].title+"</p></figure>";
+    	};
+
+
+
+    </script>
+    
+</body>
+</html>
