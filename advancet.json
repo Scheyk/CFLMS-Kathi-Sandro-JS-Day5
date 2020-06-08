@@ -1,0 +1,23 @@
+var booklist = `[
+	{
+	"title": "javascript for Dummies",
+	"autor": "Dummy Dumb Dumb",
+	"read": "false",
+	"Cover": "",
+	"CoverRead": ""
+	},
+	{
+	"title": "javascript for Blondis",
+	"autor": "Dummy Dumb Blond",
+	"read": "false",
+	"Cover": "",
+	"CoverRead": ""
+	},
+	{
+	"title": "javascript for RedHeads",
+	"autor": "Dummy Dumb Red",
+	"read": "false",
+	"Cover": "",
+	"CoverRead": ""
+	}
+]`;

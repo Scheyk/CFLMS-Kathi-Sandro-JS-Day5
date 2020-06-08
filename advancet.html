@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>advancet</title>
+	<meta charset="utf-8">
+</head>
+<body>
+
+	<div id="advancet"></div>
+
+	<script type="text/javascript" src="advancet.json"></script>
+	<script>
+		
+		var Books = JSON.parse(booklist);
+		console.log(Books);
+
+		for (var i = 0; i < Books.length; i++) 
+    	{
+    		
+    		document.getElementById('advancet').innerHTML += "<p>Book title: " + Books[i].title +							
+    															"Autor: " + Books[i].autor + "</p>";
+    		
+    	}
+
+    	for (var i = 0; i < Books.length; i++) 
+    	{
+    		
+    		document.getElementById('advancet').innerHTML += "<ul><li>Books: " + Books[i].title + "</li></ul>";
+    			    		
+    	}
+
+	</script>
+
+</body>
+</html>
