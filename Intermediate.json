@@ -1,73 +1,73 @@
-var employees = [
-	{
-		"uniqueID": "00",
-		"FirstName": "Susi",
-		"LAstName": "Strunz",
-		"EmailAdress": "susi.strunz@hotmail.com",
-		"JobTitle": "Frisoer",
-		"Salary": "1200"
+var employees =
+	`[{
+		"uniqueID" : "00",
+		"FirstName" : "Susi",
+		"LAstName" : "Strunz",
+		"EmailAdress" : "susi.strunz@hotmail.com",
+		"JobTitle" : "Frisoer",
+		"Salary" : "1200"
 	},
 	{
-		"uniqueID": "01",
-		"FirstName": "Sibille",
-		"LAstName": "Strunz",
-		"EmailAdress": "susi.strunz@hotmail.com",
-		"JobTitle": "Frisoer",
-		"Salary": "1100"
+		"uniqueID" : "01",
+		"FirstName" : "Sibille",
+		"LAstName" : "Strunz",
+		"EmailAdress" : "susi.strunz@hotmail.com",
+		"JobTitle" : "Frisoer",
+		"Salary" : "1100"
 	},
 	{
-		"uniqueID": "02",
-		"FirstName": "Magdalene",
-		"LAstName": "Strunz",
-		"EmailAdress": "susi.strunz@hotmail.com",
-		"JobTitle": "Frisoer",
-		"Salary": "1500"
+		"uniqueID" : "02",
+		"FirstName" : "Magdalene",
+		"LAstName" : "Strunz",
+		"EmailAdress" : "susi.strunz@hotmail.com",
+		"JobTitle" : "Frisoer",
+		"Salary" : "1500"
 	},
 	{
-		"uniqueID": "03",
-		"FirstName": "Franz",
-		"LAstName": "Strunz",
-		"EmailAdress": "susi.strunz@hotmail.com",
-		"JobTitle": "Frisoer-Lehrling",
-		"Salary": "800"
+		"uniqueID" : "03",
+		"FirstName" : "Franz",
+		"LAstName" : "Strunz",
+		"EmailAdress" : "susi.strunz@hotmail.com",
+		"JobTitle" : "Frisoer-Lehrling",
+		"Salary" : "800"
 	},
 	{
-		"uniqueID": "04",
-		"FirstName": "Juergen",
-		"LAstName": "Strunz",
-		"EmailAdress": "susi.strunz@hotmail.com",
-		"JobTitle": "Frisoer",
-		"Salary": "1200"
+		"uniqueID" : "04",
+		"FirstName" : "Juergen",
+		"LAstName" : "Strunz",
+		"EmailAdress" : "susi.strunz@hotmail.com",
+		"JobTitle" : "Frisoer",
+		"Salary" : "1200"
 	},
 	{
-		"uniqueID": "05",
-		"FirstName": "Marie",
-		"LAstName": "Strunz",
-		"EmailAdress": "susi.strunz@hotmail.com",
-		"JobTitle": "Frisoer-Lehrling",
-		"Salary": "500"
+		"uniqueID" : "05",
+		"FirstName" : "Marie",
+		"LAstName" : "Strunz",
+		"EmailAdress" : "susi.strunz@hotmail.com",
+		"JobTitle" : "Frisoer-Lehrling",
+		"Salary" : "500"
 	},
 	{
-		"uniqueID": "06",
-		"FirstName": "Alexander",
-		"LAstName": "Strunz",
-		"EmailAdress": "susi.strunz@hotmail.com",
-		"JobTitle": "Frisoer",
-		"Salary": "1800"
+		"uniqueID" : "06",
+		"FirstName" : "Alexander",
+		"LAstName" : "Strunz",
+		"EmailAdress" : "susi.strunz@hotmail.com",
+		"JobTitle" : "Frisoer",
+		"Salary" : "1800"
 	},
 	{
-		"uniqueID": "07",
-		"FirstName": "Thomas",
-		"LAstName": "Strunz",
-		"EmailAdress": "susi.strunz@hotmail.com",
-		"JobTitle": "Frisoer",
-		"Salary": "1700"
+		"uniqueID" : "07",
+		"FirstName" : "Thomas",
+		"LAstName" : "Strunz",
+		"EmailAdress" : "susi.strunz@hotmail.com",
+		"JobTitle" : "Frisoer",
+		"Salary" : "1700"
 	},
 	{
-		"uniqueID": "08",
-		"FirstName": "Max",
-		"LAstName": "Strunz",
-		"EmailAdress": "susi.strunz@hotmail.com",
+		"uniqueID" : "08",
+		"FirstName" : "Max",
+		"LAstName" : "Strunz",
+		"EmailAdress" : "susi.strunz@hotmail.com",
 		"JobTitle": "Reinigungskraft",
 		"Salary": "1900"
 	},
@@ -78,5 +78,4 @@ var employees = [
 		"EmailAdress": "susi.strunz@hotmail.com",
 		"JobTitle": "Frisoer",
 		"Salary": "1400"
-	}
-]
+	}]`;
