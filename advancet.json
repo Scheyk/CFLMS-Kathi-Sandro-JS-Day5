@@ -3,21 +3,21 @@ var booklist = `[
 	"title": "javascript for Dummies",
 	"autor": "Dummy Dumb Dumb",
 	"read": "false",
-	"Cover": "",
-	"CoverRead": ""
+	"image": "https://cdn.pixabay.com/photo/2020/01/23/17/04/chair-4788242__340.jpg",
+	"Cover": "https://cdn.pixabay.com/photo/2014/12/27/15/34/notebook-581128__340.jpg"
 	},
 	{
 	"title": "javascript for Blondis",
 	"autor": "Dummy Dumb Blond",
 	"read": "false",
-	"Cover": "",
-	"CoverRead": ""
+	"image": "https://cdn.pixabay.com/photo/2015/08/18/20/45/kids-894787__340.jpg",
+	"Cover": "https://cdn.pixabay.com/photo/2014/12/27/15/34/notebook-581128__340.jpg"
 	},
 	{
 	"title": "javascript for RedHeads",
 	"autor": "Dummy Dumb Red",
 	"read": "false",
-	"Cover": "",
-	"CoverRead": ""
+	"image": "https://cdn.pixabay.com/photo/2015/11/21/15/48/woman-1055088__340.jpg",
+	"Cover": "https://cdn.pixabay.com/photo/2014/12/27/15/34/notebook-581128__340.jpg"
 	}
 ]`;
