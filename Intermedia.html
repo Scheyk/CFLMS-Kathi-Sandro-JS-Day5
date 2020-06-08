@@ -15,7 +15,7 @@
 		var Team = JSON.parse(employees);
 		console.log(Team);
 
-		var i = 0;    	
+		//var i = 0;    	
 
     	for (var i = 0; i < Team.length; i++) 
     	{
@@ -28,47 +28,9 @@
     							"<tr><td><b>E-Mail:</b></td><td>" + Team[i].EmailAdress + "</td></tr>" +
     							"<tr><td><b>Job:</b></td><td>" + Team[i].JobTitle + "</td></tr>" +
     							"<tr><td><b>Salary:</b></td><td>" + Team[i].Salary + "</td></tr>" +
-    			"</table>";
-
-    		/*Team[i].uniqueID + "<br>" + Team[i].FirstName + "<br>" + Team[i].LAstName + "<br>" + Team[i].EmailAdress + "<br>" + Team[i].JobTitle + "<br>" + Team[i].Salary;*/
+    			"</table>";    		
     	}
-
-
-        	/*document.getElementById("json").innerHTML += "<td><table border='1' width=150 >";
-        	document.writeln("<table border='1' width=150 >");
-        	document.writeln("<tr><td><b>Name</b></td><td width=50>" + books.Pascal[i].Name + "</td></tr>");
-        	document.writeln("<tr><td><b>Price</b></td><td width=50>" + books.Pascal[i].price + "</td></tr>");
-       		document.writeln("</table>");
-        	document.writeln("</td>");
-		}
-		/*for (var i = 0 ; i < Team.length; i++) 
-		{
-      	var person = Team[i];
-      	
-
-		document.getElementById("json").innerHTML = "<table border='1'>"
-		}*/
-
-		/*var i = 0
-    document.writeln("<table border='2'><tr>");
-    for (i = 0; i < books.Pascal.length; i++) {
-        document.writeln("<td>");
-        document.writeln("<table border='1' width=150 >");
-        document.writeln("<tr><td><b>Name</b></td><td width=50>" + books.Pascal[i].Name + "</td></tr>");
-        document.writeln("<tr><td><b>Price</b></td><td width=50>" + books.Pascal[i].price + "</td></tr>");
-        document.writeln("</table>");
-        document.writeln("</td>");
-    }
-    for (i = 0; i < books.Scala.length; i++) {
-        document.writeln("<td>");
-        document.writeln("<table border='1' width=100 >");
-        document.writeln("<tr><td><b>Name</b></td><td width=50>" + books.Scala[i].Name + "</td></tr>");
-        document.writeln("<tr><td><b>Price</b></td><td width=50>" + books.Scala[i].price + "</td></tr>");
-        document.writeln("</table>");
-        document.writeln("</td>");
-    }
-    document.writeln("</tr></table>");*/
-
+        	
 	</script>
 
 </body>
